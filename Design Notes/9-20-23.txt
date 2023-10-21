@@ -1,0 +1,17 @@
+- Initially, the AS01-ML01S module was connected the ATtiny as depicted below:
+	Tiny MOSI -> AS01 MOSI
+	Tiny MISO -> AS01 MISO
+		   .
+		   .
+		   .
+
+- The above connections were wrong. The MOSI and MISO ports needed to be switched in order for the AS01 to work well:
+	Tiny MOSI -> AS01 MISO
+	Tiny MISO -> AS01 MOSI
+		   .
+		   .
+		   .	
+
+- This makes sense because the output of the master MO, should be the input of the slave MI. 
+
+- To fix the issue, the MOSI and MISO net ports in the schematic were flipped at the points where they connected to the ATtiny. 

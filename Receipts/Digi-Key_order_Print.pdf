@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://www.digikey.com/ordering/Submit/Submit/Print -->
+<html lang="en-US" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>Digi-Key - Print</title>
+
+    <style>
+
+        .order-submitted__actions {
+            display:none !important;
+        }
+
+        #content {
+            width: 100%;
+            margin: 0;
+            float: none;
+        }
+
+        body {
+            font: 10pt Helvetica, Georgia, "Times New Roman", Times, serif;
+            line-height: 1.3;
+            background: #fff !important;
+            color: #000;
+        }
+
+        h1, h2, h3, h4 {
+            font-size: 12pt;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            border-bottom: solid 1px #000;
+        }
+
+        span {
+            display: block;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .table, table {
+            display: table;
+            width: 100%;
+        }
+
+        .summary {
+            width: 50%;
+            margin-left: 50%;
+        }
+
+        .rtl .summary {
+            margin-left: 0;
+            margin-right: 50%;
+        }
+
+        .summary .table {
+            width: auto;
+        }
+
+        .table-row {
+            display: table-row;
+        }
+
+            .table-row label, .table-row span {
+                display: table-cell;
+            }
+
+            .table-row span {
+                text-align: right;
+                padding: 0 50px;
+            }
+
+        .rtl .table-row span {
+            text-align: left;
+        }
+
+        .table-cell, .reference-info td {
+            display: table-cell;
+            width: 50%;
+        }
+
+        .submit-shipping .table-row .table-cell {
+            width: 40% !important;
+        }
+
+        .submit-shipping + .table-cell {
+            display: block;
+            width: 100%;
+        }
+
+        th, table:not(.reference-info) td {
+            text-align: left;
+            padding: 4px;
+        }
+
+        .rtl th, .rtl table:not(.reference-info) td {
+            text-align: right;
+            padding: 4px;
+        }
+
+        th.price, td.price {
+            text-align: right !important;
+        }
+
+        .rtl th.price, .rtl td.price {
+            text-align: left !important;
+        }
+
+        th {
+            background-color: #ccc;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .rtl .text-right {
+            text-align: left;
+        }
+
+        .ExportAnswers {
+            margin-bottom: 15px;
+        }
+
+        .colon-field::after {
+            content: ":";
+        }
+
+        .stay-ltr {
+            direction: ltr !important;
+            unicode-bidi: bidi-override !important;
+        }
+
+        .dk-grid {
+            display:table;
+            width:100%;
+        }
+        .dk-grid > div {
+            padding-bottom:8px;
+            display: table-cell;
+            width: 33%;
+        }
+
+        .ordering-info-group {
+            padding-bottom:8px;
+        }
+
+        #dk-logo {
+            height:70px;
+        }
+    </style>
+</head>
+
+<body class="ltr" data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="">
+
+    <div id="content">
+
+<form action="https://www.digikey.com/ordering/Submit" id="mainForm" method="post">            <img id="dk-logo" src="./Digi-Key_order_Print_files/digikey_print_logo.png">
+
+
+
+<h2 class="headline-border">
+        <span class="order-submitted__actions">
+            <span class="icon-printer"></span> <a class="dk-link" href="https://www.digikey.com/ordering/guest/Submit/Submit/Print" ref-page-event="Print Cart" target="_blank" title="- Print a copy of this cart.">Print Cart</a>
+            <span class="icon-download"></span> <a href="https://www.digikey.com/ordering/Submit/Submit/Print#" class="dk-link" onclick="event.preventDefault(); dk.modal(&#39;#download-cart-modal&#39;).show();" title="- Download a copy of the product table."> Download</a>
+            <span class="icon-cart"></span> <a href="https://www.digikey.com/ordering/ordering/ShoppingCart/ShoppingCart/NewCart" class="dk-link" ref_page_event="New Cart" title="- Create a new empty cart."> New Cart</a>
+        </span>
+    Reference Information
+</h2>
+<div class="dk-grid">
+    <div class="ordering-info-group w-full sm:w-1/2 lg:w-1/3">
+        <label class="ordering-info-label" for="WebID">Web ID</label>
+        <span class="ordering-info">340442442</span>
+    </div>
+        <div class="ordering-info-group w-full sm:w-1/2 lg:w-1/3">
+            <label class="ordering-info-label" for="BaseOrderCustomerId">Customer Number</label>
+            <span class="ordering-info">14068398</span>
+        </div>
+
+        <div class="ordering-info-group w-full sm:w-1/2 lg:w-1/3">
+            <label class="ordering-info-label" for="DateSubmitted">Submitted</label>
+            <span class="ordering-info">08/08/2023 23:48:46</span>
+        </div>
+</div>
+
+
+
+<input data-val="false" id="ShippingEmail" name="ShippingEmail" type="hidden" value="DESKCOMP10@OUTLOOK.COM">
+<input data-val="false" id="ShippingPhone" name="ShippingPhone" type="hidden" value="7272420826">
+<input data-val="false" data-val-length="The field VAT Number &lt;a class=&quot;helpLink icon-question-circle&quot; href=&quot;javascript:helpPopup(&#39;vat-number&#39;, orderingSiteCode, orderingLangCode, siteCorePhraseDB);&quot;&gt;&lt;/a&gt; must be a string with a maximum length of 15." data-val-length-max="15" id="ShippingContactInfo_VatNumber" name="ShippingContactInfo.VatNumber" type="hidden" value="">
+<input data-val="false" id="BillingPhone" name="BillingPhone" type="hidden" value="7272420826">
+<input data-val="false" data-val-required="The DisplayBillingAddress field is required." id="DisplayBillingAddress" name="DisplayBillingAddress" type="hidden" value="True">
+
+<h2 class="headline-border">
+    Address
+</h2>
+<div class="dk-grid">
+    
+    <div class="w-full sm:w-1/2 lg:w-1/3">
+        <div class="ordering-info-group">
+            <label class="ordering-info-label">Shipping Address</label>
+            <span class="ordering-info">
+                
+
+
+<input data-val="false" data-val-required="Required" id="ShippingAddress_CountryISO" name="ShippingAddress.CountryISO" type="hidden" value="US">
+<input data-val="false" data-val-required="The FlagDomesticAdrs field is required." id="ShippingAddress_FlagDomesticAdrs" name="ShippingAddress.FlagDomesticAdrs" type="hidden" value="True">
+<input data-val="false" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_FirstName" name="ShippingAddress.FirstName" type="hidden" value="Tevin">
+<input data-val="false" data-val-length="The field Last Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_LastName" name="ShippingAddress.LastName" type="hidden" value="Mukudi">
+<input data-val="false" data-val-length="The field Company Name must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_CompanyName" name="ShippingAddress.CompanyName" type="hidden" value="">
+<input data-val="false" data-val-length="The field MailStop must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_MailStop" name="ShippingAddress.MailStop" type="hidden" value="">
+<input data-val="false" data-val-length="The field Address Line 1 must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_AddressLine1" name="ShippingAddress.AddressLine1" type="hidden" value="3113 ALAFAYA BAY LN">
+<input data-val="false" data-val-length="The field Address Line 2 must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_AddressLine2" name="ShippingAddress.AddressLine2" type="hidden" value="APT 301">
+<input data-val="false" data-val-length="The field City must be a string with a maximum length of 30." data-val-length-max="30" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" data-val-required="Required" id="ShippingAddress_City" name="ShippingAddress.City" type="hidden" value="ORLANDO">
+<input data-val="false" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" data-val-required="Required" id="ShippingAddress_StateCode" name="ShippingAddress.StateCode" type="hidden" value="FL">
+<input data-val="false" data-val-length="The field Postal Code must be a string with a maximum length of 10." data-val-length-max="10" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="ShippingAddress_ZipCode" name="ShippingAddress.ZipCode" type="hidden" value="32817">
+<input data-val="false" data-val-regex="Invalid Postal Code Plus 4" data-val-regex-pattern="\d{4}" id="ShippingAddress_ZipPlus" name="ShippingAddress.ZipPlus" type="hidden" value="6517">
+
+    <div class="address-readonly">
+            <span class="address-readonly__name">Tevin Mukudi</span>
+
+
+
+            <span class="address-readonly__line1">3113 ALAFAYA BAY LN</span>
+
+            <span class="address-readonly__line2">APT 301</span>
+
+
+                    <span class="address-readonly__city-state">ORLANDO, FL  32817-6517</span>
+
+                <span class="address-readonly__country">USA</span>
+    </div>
+
+
+
+
+
+    
+
+    
+            </span>
+        </div>
+
+            <div class="ordering-info-group">
+                <label class="ordering-info-label">Email</label>
+                <span class="ordering-info">DESKCOMP10@OUTLOOK.COM</span>
+            </div>
+                    <div class="ordering-info-group">
+                <label class="ordering-info-label">Phone</label>
+                <span class="ordering-info-group">7272420826</span>
+            </div>
+            </div>
+
+    
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            <div class="ordering-info-group">
+                <label class="ordering-info-label">Billing Address</label>
+                <span class="ordering-info">
+                    
+
+
+<input data-val="false" data-val-required="Required" id="BillingAddress_CountryISO" name="BillingAddress.CountryISO" type="hidden" value="US">
+<input data-val="false" data-val-required="The FlagDomesticAdrs field is required." id="BillingAddress_FlagDomesticAdrs" name="BillingAddress.FlagDomesticAdrs" type="hidden" value="True">
+<input data-val="false" data-val-length="The field First Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_FirstName" name="BillingAddress.FirstName" type="hidden" value="Tevin">
+<input data-val="false" data-val-length="The field Last Name must be a string with a maximum length of 20." data-val-length-max="20" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_LastName" name="BillingAddress.LastName" type="hidden" value="Mukudi">
+<input data-val="false" data-val-length="The field Company Name must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_CompanyName" name="BillingAddress.CompanyName" type="hidden" value="">
+<input data-val="false" data-val-length="The field MailStop must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_MailStop" name="BillingAddress.MailStop" type="hidden" value="">
+<input data-val="false" data-val-length="The field Address Line 1 must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_AddressLine1" name="BillingAddress.AddressLine1" type="hidden" value="4023 West Gray Street">
+<input data-val="false" data-val-length="The field Address Line 2 must be a string with a maximum length of 40." data-val-length-max="40" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_AddressLine2" name="BillingAddress.AddressLine2" type="hidden" value="">
+<input data-val="false" data-val-length="The field City must be a string with a maximum length of 30." data-val-length-max="30" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" data-val-required="Required" id="BillingAddress_City" name="BillingAddress.City" type="hidden" value="Tampa">
+<input data-val="false" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" data-val-required="Required" id="BillingAddress_StateCode" name="BillingAddress.StateCode" type="hidden" value="FL">
+<input data-val="false" data-val-length="The field Postal Code must be a string with a maximum length of 10." data-val-length-max="10" data-val-regex="&lt;, &gt;, &quot; are not allowed to input. Please try again." data-val-regex-pattern="([^&quot;&lt;&gt;]+)" id="BillingAddress_ZipCode" name="BillingAddress.ZipCode" type="hidden" value="33609">
+<input data-val="false" data-val-regex="Invalid Postal Code Plus 4" data-val-regex-pattern="\d{4}" id="BillingAddress_ZipPlus" name="BillingAddress.ZipPlus" type="hidden" value="">
+
+    <div class="address-readonly">
+            <span class="address-readonly__name">Tevin Mukudi</span>
+
+
+
+            <span class="address-readonly__line1">4023 West Gray Street</span>
+
+
+
+                    <span class="address-readonly__city-state">Tampa, FL  33609</span>
+
+                <span class="address-readonly__country">USA</span>
+    </div>
+
+
+
+
+
+    
+
+    
+                </span>
+            </div>
+                <div class="ordering-info-group">
+                    <label class="ordering-info-label">Phone</label>
+                    <span class="ordering-info">7272420826</span>
+                </div>
+        </div>
+
+    <div class="w-full submit-address-vat-message">
+                
+                    </div>
+</div>
+
+
+<h2 class="headline-border">
+    Shipping
+</h2>
+
+
+    <div class="dk-grid" data-shipped-by="digikey">
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            <div class="ordering-info-group">
+                <label class="ordering-info-label">
+                    Shipped By
+                </label>
+                <span class="ordering-info">
+                    Digi-Key Electronics<br>Shipping from USA
+                </span>
+            </div>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+            
+<div>
+
+
+
+
+            <div class="ordering-info-group">
+                <label class="ordering-info-label">Ship Method</label>
+                <span class="ordering-info">
+FedEx Ground                </span>
+            </div>
+</div>          
+
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/3">
+                <div class="ordering-info-group">
+                    <label class="ordering-info-label">
+                        Salesorder ID
+                    </label>
+                    <span class="ordering-info">
+                        82655177
+                    </span>
+                </div>
+        </div>
+    </div>
+
+
+<h2 class="headline-border">
+    Payment
+</h2>
+
+<div class="dk-grid">
+    <div class="w-full">
+        <div class="ordering-info-group">
+            <label class="ordering-info-label" for="PaymentType">Payment Method</label>
+            <span class="ordering-info">MasterCard | Ending in 1553</span>
+        </div>
+    </div>
+
+</div>
+            <div>
+                <div class="text-right">All prices are in USD</div>
+                <table cellspacing="0" border="1">
+                    <tbody><tr>
+                        <th>#</th>
+                        <th>Product Details</th>
+                        <th>Quantity</th>
+                        <th>Availability</th>
+                        <th class="price">Unit Price</th>
+                        <th class="price">Extended Price</th>
+                    </tr>
+
+<tr class="detailRow 436881774 ">
+    <input data-val="false" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Details_0__Index" name="Details[0].Index" type="hidden" value="1">
+    <input data-val="false" id="Details_0__PartNumber" name="Details[0].PartNumber" type="hidden" value="36-3080CT-ND">
+    <input data-val="false" id="Details_0__ManufacturerPartNumber" name="Details[0].ManufacturerPartNumber" type="hidden" value="3080TR">
+    <input data-val="false" id="Details_0__cRef" name="Details[0].cRef" type="hidden" value="">
+    <input data-val="false" id="Details_0__Description" name="Details[0].Description" type="hidden" value="BATT RETAINER COIN 12MM 1CEL SMD">
+    <input data-val="false" data-val-number="The field Quantity must be a number." data-val-required="The Quantity field is required." id="Details_0__Quantity" name="Details[0].Quantity" type="hidden" value="4">
+    <input data-val="false" data-val-number="The field ImmediateQuantity must be a number." data-val-required="The ImmediateQuantity field is required." id="Details_0__ImmediateQuantity" name="Details[0].ImmediateQuantity" type="hidden" value="4">
+    <input data-val="false" data-val-number="The field BackorderQuantity must be a number." data-val-required="The BackorderQuantity field is required." id="Details_0__BackorderQuantity" name="Details[0].BackorderQuantity" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field Unit Price must be a number." data-val-required="The Unit Price field is required." id="Details_0__UnitPrice" name="Details[0].UnitPrice" type="hidden" value="1.03">
+    <input data-val="false" id="Details_0__ExtendedPriceDisplay" name="Details[0].ExtendedPriceDisplay" type="hidden" value="$4.12">
+    <input data-val="false" data-val-number="The field FlagNCNR must be a number." data-val-required="The FlagNCNR field is required." id="Details_0__FlagNCNR" name="Details[0].FlagNCNR" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field FlagSDS must be a number." data-val-required="The FlagSDS field is required." id="Details_0__FlagSDS" name="Details[0].FlagSDS" type="hidden" value="0">
+    <input data-val="false" data-val-required="The FlagLithium field is required." id="Details_0__FlagLithium" name="Details[0].FlagLithium" type="hidden" value="False">
+    <input data-val="false" data-val-required="The PartType field is required." id="Details_0__PartType" name="Details[0].PartType" type="hidden" value="NoValueAdded">
+    <input data-val="false" id="Details_0__PackTypeCode" name="Details[0].PackTypeCode" type="hidden" value="CT">
+    <input data-val="false" id="Details_0__FriendlyPackTypeCode" name="Details[0].FriendlyPackTypeCode" type="hidden" value="CT">
+    <input data-val="false" data-val-required="The Discount field is required." id="Details_0__Discount" name="Details[0].Discount" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field ItemSeq must be a number." data-val-required="The ItemSeq field is required." id="Details_0__ItemSeq" name="Details[0].ItemSeq" type="hidden" value="436881774">
+    <input data-val="false" data-val-number="The field PartId must be a number." data-val-required="The PartId field is required." id="Details_0__PartId" name="Details[0].PartId" type="hidden" value="9561072">
+    <input data-val="false" id="Details_0__DetailUrl" name="Details[0].DetailUrl" type="hidden" value="">
+    <input data-val="false" data-val-required="The Repriced field is required." id="Details_0__Repriced" name="Details[0].Repriced" type="hidden" value="False">
+    <input data-val="false" data-val-required="The LeadTimeNotAvailable field is required." id="Details_0__LeadTimeNotAvailable" name="Details[0].LeadTimeNotAvailable" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field MPOfferID must be a number." data-val-required="The MPOfferID field is required." id="Details_0__MPOfferID" name="Details[0].MPOfferID" type="hidden" value="0">
+
+
+
+        <td>
+            <div>
+                1
+            </div>
+        </td>
+
+
+        <td>
+            <div>
+                
+                ‎36-3080CT-ND‎
+            </div>
+                <div>
+                    ‎3080TR‎
+                </div>
+                            <div>
+                    BATT RETAINER COIN 12MM 1CEL SMD
+                </div>
+                                    
+        </td>
+
+
+        <td>
+            4
+        </td>
+
+
+            <td>
+                <div>
+Immediate                </div>
+                            </td>
+    <td class="price">
+1.03000            </td>
+    <td class="price">
+$4.12    </td>
+</tr>
+
+
+<tr class="detailRow 436881772 even">
+    <input data-val="false" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Details_1__Index" name="Details[1].Index" type="hidden" value="2">
+    <input data-val="false" id="Details_1__PartNumber" name="Details[1].PartNumber" type="hidden" value="102-3746-1-ND">
+    <input data-val="false" id="Details_1__ManufacturerPartNumber" name="Details[1].ManufacturerPartNumber" type="hidden" value="CMT-8540S-SMT-TR">
+    <input data-val="false" id="Details_1__cRef" name="Details[1].cRef" type="hidden" value="">
+    <input data-val="false" id="Details_1__Description" name="Details[1].Description" type="hidden" value="BUZZER MAGNETIC 5V 8.5X8.5MM SMD">
+    <input data-val="false" data-val-number="The field Quantity must be a number." data-val-required="The Quantity field is required." id="Details_1__Quantity" name="Details[1].Quantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field ImmediateQuantity must be a number." data-val-required="The ImmediateQuantity field is required." id="Details_1__ImmediateQuantity" name="Details[1].ImmediateQuantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field BackorderQuantity must be a number." data-val-required="The BackorderQuantity field is required." id="Details_1__BackorderQuantity" name="Details[1].BackorderQuantity" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field Unit Price must be a number." data-val-required="The Unit Price field is required." id="Details_1__UnitPrice" name="Details[1].UnitPrice" type="hidden" value="3.26">
+    <input data-val="false" id="Details_1__ExtendedPriceDisplay" name="Details[1].ExtendedPriceDisplay" type="hidden" value="$9.78">
+    <input data-val="false" data-val-number="The field FlagNCNR must be a number." data-val-required="The FlagNCNR field is required." id="Details_1__FlagNCNR" name="Details[1].FlagNCNR" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field FlagSDS must be a number." data-val-required="The FlagSDS field is required." id="Details_1__FlagSDS" name="Details[1].FlagSDS" type="hidden" value="0">
+    <input data-val="false" data-val-required="The FlagLithium field is required." id="Details_1__FlagLithium" name="Details[1].FlagLithium" type="hidden" value="False">
+    <input data-val="false" data-val-required="The PartType field is required." id="Details_1__PartType" name="Details[1].PartType" type="hidden" value="NoValueAdded">
+    <input data-val="false" id="Details_1__PackTypeCode" name="Details[1].PackTypeCode" type="hidden" value="CT">
+    <input data-val="false" id="Details_1__FriendlyPackTypeCode" name="Details[1].FriendlyPackTypeCode" type="hidden" value="CT">
+    <input data-val="false" data-val-required="The Discount field is required." id="Details_1__Discount" name="Details[1].Discount" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field ItemSeq must be a number." data-val-required="The ItemSeq field is required." id="Details_1__ItemSeq" name="Details[1].ItemSeq" type="hidden" value="436881772">
+    <input data-val="false" data-val-number="The field PartId must be a number." data-val-required="The PartId field is required." id="Details_1__PartId" name="Details[1].PartId" type="hidden" value="6012447">
+    <input data-val="false" id="Details_1__DetailUrl" name="Details[1].DetailUrl" type="hidden" value="">
+    <input data-val="false" data-val-required="The Repriced field is required." id="Details_1__Repriced" name="Details[1].Repriced" type="hidden" value="False">
+    <input data-val="false" data-val-required="The LeadTimeNotAvailable field is required." id="Details_1__LeadTimeNotAvailable" name="Details[1].LeadTimeNotAvailable" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field MPOfferID must be a number." data-val-required="The MPOfferID field is required." id="Details_1__MPOfferID" name="Details[1].MPOfferID" type="hidden" value="0">
+
+
+
+        <td>
+            <div>
+                2
+            </div>
+        </td>
+
+
+        <td>
+            <div>
+                
+                ‎102-3746-1-ND‎
+            </div>
+                <div>
+                    ‎CMT-8540S-SMT-TR‎
+                </div>
+                            <div>
+                    BUZZER MAGNETIC 5V 8.5X8.5MM SMD
+                </div>
+                                    
+        </td>
+
+
+        <td>
+            3
+        </td>
+
+
+            <td>
+                <div>
+Immediate                </div>
+                            </td>
+    <td class="price">
+3.26000            </td>
+    <td class="price">
+$9.78    </td>
+</tr>
+
+
+<tr class="detailRow 436881773 ">
+    <input data-val="false" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Details_2__Index" name="Details[2].Index" type="hidden" value="3">
+    <input data-val="false" id="Details_2__PartNumber" name="Details[2].PartNumber" type="hidden" value="497-13847-1-ND">
+    <input data-val="false" id="Details_2__ManufacturerPartNumber" name="Details[2].ManufacturerPartNumber" type="hidden" value="STR1550">
+    <input data-val="false" id="Details_2__cRef" name="Details[2].cRef" type="hidden" value="">
+    <input data-val="false" id="Details_2__Description" name="Details[2].Description" type="hidden" value="TRANS NPN 500V 0.5A SOT23">
+    <input data-val="false" data-val-number="The field Quantity must be a number." data-val-required="The Quantity field is required." id="Details_2__Quantity" name="Details[2].Quantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field ImmediateQuantity must be a number." data-val-required="The ImmediateQuantity field is required." id="Details_2__ImmediateQuantity" name="Details[2].ImmediateQuantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field BackorderQuantity must be a number." data-val-required="The BackorderQuantity field is required." id="Details_2__BackorderQuantity" name="Details[2].BackorderQuantity" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field Unit Price must be a number." data-val-required="The Unit Price field is required." id="Details_2__UnitPrice" name="Details[2].UnitPrice" type="hidden" value="0.55">
+    <input data-val="false" id="Details_2__ExtendedPriceDisplay" name="Details[2].ExtendedPriceDisplay" type="hidden" value="$1.65">
+    <input data-val="false" data-val-number="The field FlagNCNR must be a number." data-val-required="The FlagNCNR field is required." id="Details_2__FlagNCNR" name="Details[2].FlagNCNR" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field FlagSDS must be a number." data-val-required="The FlagSDS field is required." id="Details_2__FlagSDS" name="Details[2].FlagSDS" type="hidden" value="0">
+    <input data-val="false" data-val-required="The FlagLithium field is required." id="Details_2__FlagLithium" name="Details[2].FlagLithium" type="hidden" value="False">
+    <input data-val="false" data-val-required="The PartType field is required." id="Details_2__PartType" name="Details[2].PartType" type="hidden" value="NoValueAdded">
+    <input data-val="false" id="Details_2__PackTypeCode" name="Details[2].PackTypeCode" type="hidden" value="CT">
+    <input data-val="false" id="Details_2__FriendlyPackTypeCode" name="Details[2].FriendlyPackTypeCode" type="hidden" value="CT">
+    <input data-val="false" data-val-required="The Discount field is required." id="Details_2__Discount" name="Details[2].Discount" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field ItemSeq must be a number." data-val-required="The ItemSeq field is required." id="Details_2__ItemSeq" name="Details[2].ItemSeq" type="hidden" value="436881773">
+    <input data-val="false" data-val-number="The field PartId must be a number." data-val-required="The PartId field is required." id="Details_2__PartId" name="Details[2].PartId" type="hidden" value="4250501">
+    <input data-val="false" id="Details_2__DetailUrl" name="Details[2].DetailUrl" type="hidden" value="">
+    <input data-val="false" data-val-required="The Repriced field is required." id="Details_2__Repriced" name="Details[2].Repriced" type="hidden" value="False">
+    <input data-val="false" data-val-required="The LeadTimeNotAvailable field is required." id="Details_2__LeadTimeNotAvailable" name="Details[2].LeadTimeNotAvailable" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field MPOfferID must be a number." data-val-required="The MPOfferID field is required." id="Details_2__MPOfferID" name="Details[2].MPOfferID" type="hidden" value="0">
+
+
+
+        <td>
+            <div>
+                3
+            </div>
+        </td>
+
+
+        <td>
+            <div>
+                
+                ‎497-13847-1-ND‎
+            </div>
+                <div>
+                    ‎STR1550‎
+                </div>
+                            <div>
+                    TRANS NPN 500V 0.5A SOT23
+                </div>
+                                    
+        </td>
+
+
+        <td>
+            3
+        </td>
+
+
+            <td>
+                <div>
+Immediate                </div>
+                            </td>
+    <td class="price">
+0.55000            </td>
+    <td class="price">
+$1.65    </td>
+</tr>
+
+
+<tr class="detailRow 436881771 even">
+    <input data-val="false" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Details_3__Index" name="Details[3].Index" type="hidden" value="4">
+    <input data-val="false" id="Details_3__PartNumber" name="Details[3].PartNumber" type="hidden" value="2223-TS02-66-70-BK-160-LCR-D-ND">
+    <input data-val="false" id="Details_3__ManufacturerPartNumber" name="Details[3].ManufacturerPartNumber" type="hidden" value="TS02-66-70-BK-160-LCR-D">
+    <input data-val="false" id="Details_3__cRef" name="Details[3].cRef" type="hidden" value="">
+    <input data-val="false" id="Details_3__Description" name="Details[3].Description" type="hidden" value="6 X 6 MM, 7 MM ACTUATOR HEIGHT,">
+    <input data-val="false" data-val-number="The field Quantity must be a number." data-val-required="The Quantity field is required." id="Details_3__Quantity" name="Details[3].Quantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field ImmediateQuantity must be a number." data-val-required="The ImmediateQuantity field is required." id="Details_3__ImmediateQuantity" name="Details[3].ImmediateQuantity" type="hidden" value="3">
+    <input data-val="false" data-val-number="The field BackorderQuantity must be a number." data-val-required="The BackorderQuantity field is required." id="Details_3__BackorderQuantity" name="Details[3].BackorderQuantity" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field Unit Price must be a number." data-val-required="The Unit Price field is required." id="Details_3__UnitPrice" name="Details[3].UnitPrice" type="hidden" value="0.1">
+    <input data-val="false" id="Details_3__ExtendedPriceDisplay" name="Details[3].ExtendedPriceDisplay" type="hidden" value="$0.30">
+    <input data-val="false" data-val-number="The field FlagNCNR must be a number." data-val-required="The FlagNCNR field is required." id="Details_3__FlagNCNR" name="Details[3].FlagNCNR" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field FlagSDS must be a number." data-val-required="The FlagSDS field is required." id="Details_3__FlagSDS" name="Details[3].FlagSDS" type="hidden" value="0">
+    <input data-val="false" data-val-required="The FlagLithium field is required." id="Details_3__FlagLithium" name="Details[3].FlagLithium" type="hidden" value="False">
+    <input data-val="false" data-val-required="The PartType field is required." id="Details_3__PartType" name="Details[3].PartType" type="hidden" value="NoValueAdded">
+    <input data-val="false" id="Details_3__PackTypeCode" name="Details[3].PackTypeCode" type="hidden" value="BAG">
+    <input data-val="false" id="Details_3__FriendlyPackTypeCode" name="Details[3].FriendlyPackTypeCode" type="hidden" value="BAG">
+    <input data-val="false" data-val-required="The Discount field is required." id="Details_3__Discount" name="Details[3].Discount" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field ItemSeq must be a number." data-val-required="The ItemSeq field is required." id="Details_3__ItemSeq" name="Details[3].ItemSeq" type="hidden" value="436881771">
+    <input data-val="false" data-val-number="The field PartId must be a number." data-val-required="The PartId field is required." id="Details_3__PartId" name="Details[3].PartId" type="hidden" value="15634243">
+    <input data-val="false" id="Details_3__DetailUrl" name="Details[3].DetailUrl" type="hidden" value="">
+    <input data-val="false" data-val-required="The Repriced field is required." id="Details_3__Repriced" name="Details[3].Repriced" type="hidden" value="False">
+    <input data-val="false" data-val-required="The LeadTimeNotAvailable field is required." id="Details_3__LeadTimeNotAvailable" name="Details[3].LeadTimeNotAvailable" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field MPOfferID must be a number." data-val-required="The MPOfferID field is required." id="Details_3__MPOfferID" name="Details[3].MPOfferID" type="hidden" value="0">
+
+
+
+        <td>
+            <div>
+                4
+            </div>
+        </td>
+
+
+        <td>
+            <div>
+                
+                ‎2223-TS02-66-70-BK-160-LCR-D-ND‎
+            </div>
+                <div>
+                    ‎TS02-66-70-BK-160-LCR-D‎
+                </div>
+                            <div>
+                    6 X 6 MM, 7 MM ACTUATOR HEIGHT,
+                </div>
+                                    
+        </td>
+
+
+        <td>
+            3
+        </td>
+
+
+            <td>
+                <div>
+Immediate                </div>
+                            </td>
+    <td class="price">
+0.10000            </td>
+    <td class="price">
+$0.30    </td>
+</tr>
+
+
+<tr class="detailRow 436881782 ">
+    <input data-val="false" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Details_4__Index" name="Details[4].Index" type="hidden" value="5">
+    <input data-val="false" id="Details_4__PartNumber" name="Details[4].PartNumber" type="hidden" value="311-180LRCT-ND">
+    <input data-val="false" id="Details_4__ManufacturerPartNumber" name="Details[4].ManufacturerPartNumber" type="hidden" value="RC0402FR-07180RL">
+    <input data-val="false" id="Details_4__cRef" name="Details[4].cRef" type="hidden" value="">
+    <input data-val="false" id="Details_4__Description" name="Details[4].Description" type="hidden" value="RES 180 OHM 1% 1/16W 0402">
+    <input data-val="false" data-val-number="The field Quantity must be a number." data-val-required="The Quantity field is required." id="Details_4__Quantity" name="Details[4].Quantity" type="hidden" value="8">
+    <input data-val="false" data-val-number="The field ImmediateQuantity must be a number." data-val-required="The ImmediateQuantity field is required." id="Details_4__ImmediateQuantity" name="Details[4].ImmediateQuantity" type="hidden" value="8">
+    <input data-val="false" data-val-number="The field BackorderQuantity must be a number." data-val-required="The BackorderQuantity field is required." id="Details_4__BackorderQuantity" name="Details[4].BackorderQuantity" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field Unit Price must be a number." data-val-required="The Unit Price field is required." id="Details_4__UnitPrice" name="Details[4].UnitPrice" type="hidden" value="0.1">
+    <input data-val="false" id="Details_4__ExtendedPriceDisplay" name="Details[4].ExtendedPriceDisplay" type="hidden" value="$0.80">
+    <input data-val="false" data-val-number="The field FlagNCNR must be a number." data-val-required="The FlagNCNR field is required." id="Details_4__FlagNCNR" name="Details[4].FlagNCNR" type="hidden" value="0">
+    <input data-val="false" data-val-number="The field FlagSDS must be a number." data-val-required="The FlagSDS field is required." id="Details_4__FlagSDS" name="Details[4].FlagSDS" type="hidden" value="0">
+    <input data-val="false" data-val-required="The FlagLithium field is required." id="Details_4__FlagLithium" name="Details[4].FlagLithium" type="hidden" value="False">
+    <input data-val="false" data-val-required="The PartType field is required." id="Details_4__PartType" name="Details[4].PartType" type="hidden" value="NoValueAdded">
+    <input data-val="false" id="Details_4__PackTypeCode" name="Details[4].PackTypeCode" type="hidden" value="CT">
+    <input data-val="false" id="Details_4__FriendlyPackTypeCode" name="Details[4].FriendlyPackTypeCode" type="hidden" value="CT">
+    <input data-val="false" data-val-required="The Discount field is required." id="Details_4__Discount" name="Details[4].Discount" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field ItemSeq must be a number." data-val-required="The ItemSeq field is required." id="Details_4__ItemSeq" name="Details[4].ItemSeq" type="hidden" value="436881782">
+    <input data-val="false" data-val-number="The field PartId must be a number." data-val-required="The PartId field is required." id="Details_4__PartId" name="Details[4].PartId" type="hidden" value="729497">
+    <input data-val="false" id="Details_4__DetailUrl" name="Details[4].DetailUrl" type="hidden" value="">
+    <input data-val="false" data-val-required="The Repriced field is required." id="Details_4__Repriced" name="Details[4].Repriced" type="hidden" value="False">
+    <input data-val="false" data-val-required="The LeadTimeNotAvailable field is required." id="Details_4__LeadTimeNotAvailable" name="Details[4].LeadTimeNotAvailable" type="hidden" value="False">
+    <input data-val="false" data-val-number="The field MPOfferID must be a number." data-val-required="The MPOfferID field is required." id="Details_4__MPOfferID" name="Details[4].MPOfferID" type="hidden" value="0">
+
+
+
+        <td>
+            <div>
+                5
+            </div>
+        </td>
+
+
+        <td>
+            <div>
+                
+                ‎311-180LRCT-ND‎
+            </div>
+                <div>
+                    ‎RC0402FR-07180RL‎
+                </div>
+                            <div>
+                    RES 180 OHM 1% 1/16W 0402
+                </div>
+                                    
+        </td>
+
+
+        <td>
+            8
+        </td>
+
+
+            <td>
+                <div>
+Immediate                </div>
+                            </td>
+    <td class="price">
+0.10000            </td>
+    <td class="price">
+$0.80    </td>
+</tr>
+
+                </tbody></table>
+            </div>
+            <div class="summary">
+                <h2 class="headline-box__headline">Summary</h2>
+                <div class="table">
+                    <div class="table-row">
+                        <label>Subtotal:</label>
+                        <span>$16.65</span>
+                    </div>
+
+                    
+                        <div class="table-row">
+                            <label>Shipping:</label>
+                            <span>$6.99</span>
+                        </div>
+                                            <div class="table-row">
+                            <label>Tariff:</label>
+                            <span id="summaryBoxTariff">$1.18</span>
+                        </div>
+                                            <div class="table-row">
+                                <label>Sales Tax:</label>
+                            <span>$1.16</span>
+                        </div>
+                                                                                                                        <div class="table-row">
+                        <label>Total:</label>
+                        <span>$25.98</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div>
+                These commodities, technology or software will be exported from the United States in accordance with the Export Administration regulation. These products may not be re-exported, diverted, or otherwise shipped to another destination that does not fully comply with U.S. laws and the laws of any other applicable jurisdiction.
+            </div>
+            <br>
+</form>    </div>
+<script type="text/javascript" src="./Digi-Key_order_Print_files/xlaBo"></script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
